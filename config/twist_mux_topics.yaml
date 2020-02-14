@@ -9,16 +9,16 @@ topics:
 -
   name    : perception
   topic   : wc_perception/cmd_vel
-  timeout : 0.0
+  timeout : 0.5
   priority: 10
 -
   name    : xbox
   topic   : xbox/cmd_vel
-  timeout : 0.0
+  timeout : 0.5
   priority: 100
 -
   name    : test
   topic   : chairTwistTest/cmd_vel
-  timeout : 0.0
-  priority: 10
+  timeout : 0.5
+  priority: 20
 
